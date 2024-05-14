@@ -1,0 +1,25 @@
+{
+  "name": "ingre_server",
+  "version": "1.0.0",
+  "description": "ingrediant app server",
+  "main": "server.js",
+  "scripts": {
+    "dev":"nodemon server.js",
+    "seed":"node seed.js"
+  },
+  "keywords": [
+    "node.js",
+    "server",
+    "express.js"
+  ],
+  "author": "keven0311",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0",
+    "pg": "^8.11.5",
+    "sequelize": "^6.37.3"
+  }
+}
