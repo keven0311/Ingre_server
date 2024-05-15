@@ -2,6 +2,7 @@ const db = require("./database")
 
 // Importing models:
 const Test = require("./models/Test")
+const User = require("./models/User")
 
 
 // Models associations assigning:
@@ -10,5 +11,6 @@ const Test = require("./models/Test")
 
 module.exports = {
     db,
-    Test
+    Test,
+    User
 }
