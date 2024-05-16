@@ -19,6 +19,11 @@ function generateRefreshToken(user){
     return jwt.sign(payload, secret,{expiresIn:"2h"});
 }
 
+/**
+ * 
+ * @param {string} token : JWT token string
+ * @returns jwt payload based on token
+ */
 function verifyToken(token){
     return jwt.verify(token,secret);
 }
